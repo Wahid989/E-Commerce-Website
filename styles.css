@@ -1,0 +1,362 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+div ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+div ul li a {
+    color: white;
+    padding: 10px 20px; 
+    text-decoration: none;
+}
+
+/* About Us section */
+.about-us {
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: solid 1px #ddd;
+}
+
+/* Shop Now button */
+.shop-now button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0 20px 130px; 
+}
+
+/* Customer Reviews section */
+.customer-reviews {
+    background-color: #ddd; 
+    padding: 20px;
+    margin: 20px auto; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 80%; 
+}
+
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0; 
+}
+
+.stars {
+    color: #f6ff00; 
+    margin-bottom: 10px; 
+}
+
+.customer-reviews p {
+    margin: 0 0 10px 0; 
+}
+  
+.product-row {
+    background-color: #ddd;
+}
+
+.product-item {
+    background-color: rgb(234, 234, 234);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 35%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; 
+  }
+  
+  .product-details {
+    background: rgb(234, 234, 234);;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%; 
+  }
+  
+  .product-details h2,
+  .product-details p {
+    margin: 5px 0; 
+  }
+  
+  .product-item button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+  }
+
+  .product-item:hover,
+  .product-item:hover .product-details {
+
+    background-color: #ffffff;
+  }
+  
+  .product-details button:hover{
+    background-color: #45A049;
+  }
+
+/* Contact Info Section */
+.contact-info {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+/* Contact Methods */
+.contact-method {
+    background-color: #ddd; 
+    padding: 10px 0; 
+    margin-bottom: 10px; 
+    border-radius: 10px; 
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.contact-method p {
+    margin: 5px 0; 
+}
+
+.contact-method a:hover {
+    color: #007BFF; 
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+
+.login label {
+    display: block;
+    margin: 10px 0;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+.login a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+/* Cart styles */
+#cart {
+    background-color: #ddd; 
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#cart h2 {
+    margin-bottom: 10px;
+}
+
+.cart-item {
+    background-color: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.remove {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.remove:hover {
+    background-color: #ff0000; 
+}
+
+#message-box {
+    display: none; 
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px 0; 
+    border: 2px solid black;
+    width: calc(100% - 40px); 
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#message-box p {
+    margin: 0;
+    text-align: left;
+}
+
+/* Signup Form Section */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Form Fields */
+.signup-form label {
+    display: block;
+    margin: 10px;
+}
+
+.signup-form input {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+/* Signup Button */
+#signup-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#signup-button:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+#signup-message-box {
+    border: 2px solid black; /* Add a solid border */
+    background-color: #f9f9f9; /* Set the background color */
+    padding: 10px; /* Add padding inside the box */
+    margin: 20px 0; /* Add vertical margin and set horizontal margin to 0 */
+    display: none; /* Initially hide the box */
+    box-sizing: border-box; /* Include padding and border in the box's dimensions */
+}
+
+#sign-message-box p {
+    margin-bottom: 10px; /* Add bottom margin to paragraphs to space out messages */
+    text-align: left; /* Align text to the left */
+}
+
+
+
+

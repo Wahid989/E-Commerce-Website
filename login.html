@@ -1,0 +1,43 @@
+<!-- S M Wahid Chowdhury, UCID:30182020
+     Himel Paul,          UCID:30181836 -->
+     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Site Logo" style="float: left;" width="300" height="200">
+        <h1>QuickCart</h1>
+    </header>
+    <div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <main class="login">
+        <h2>Login</h2>
+        <form id="login-form"> 
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+            <button type="submit" id="login-button">Login</button> 
+            <p>New user? <a href="signup.html">Sign up here</a>.</p>
+            <div id="message-box"></div>
+        </form>        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 QuickCart. All rights reserved.</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
